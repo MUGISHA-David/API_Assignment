@@ -1,3 +1,5 @@
+# API_Assignment
+
 ## RESTful API Assignment - Spring Boot
 
 This single Spring Boot project contains all questions (1–5 + bonus) implemented using simple in-memory lists and REST controllers only (no service/repository layers).
@@ -11,7 +13,7 @@ This single Spring Boot project contains all questions (1–5 + bonus) implement
 mvn spring-boot:run
 ```
 
-- The application starts on port `8080` by default.
+- The application starts on port `8082` by default.
 
 You can test endpoints using Postman or a browser for `GET` requests.
 
@@ -229,4 +231,3 @@ You can test endpoints using Postman or a browser for `GET` requests.
 - Use Postman to send requests to the endpoints above.  
 - All data is stored in memory only (lists in controllers), so it resets each time the application restarts.  
 - Standard HTTP status codes are used: `200 OK`, `201 CREATED`, `204 NO CONTENT`, `404 NOT FOUND`.
-
